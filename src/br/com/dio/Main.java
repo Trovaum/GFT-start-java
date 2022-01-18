@@ -1,5 +1,6 @@
 package br.com.dio;
 
+import br.com.dio.exercicios.CalcularEmprestimo;
 import br.com.dio.exercicios.MensagemApartirDoHorario;
 import br.com.dio.exercicios.OperacoesMatematicas;
 
@@ -16,5 +17,10 @@ public class Main {
         MensagemApartirDoHorario.obterMensagem(10);
         MensagemApartirDoHorario.obterMensagem(13);
         MensagemApartirDoHorario.obterMensagem(21);
+
+        System.out.println("Exercício para calcular emprestimo!!");
+        CalcularEmprestimo.calcular(100.40, 2);
+        CalcularEmprestimo.calcular(40.40, 3);
+        CalcularEmprestimo.calcular(20.40, 1);
     }
 }
